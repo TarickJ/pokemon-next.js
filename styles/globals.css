@@ -1,8 +1,11 @@
-html,
+html, body {
+  height: 102vh;
+  overflow: hidden;
+}
+
 body {
   background-image: url('/background.jpg');
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%
+  min-height: 100%;
 }

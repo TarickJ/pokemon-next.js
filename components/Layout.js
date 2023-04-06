@@ -5,6 +5,7 @@ import styles from '../styles/Layout.module.css'
 const Layout = ({ children }) => {
   return (
     <>
+    <div class="wrapper">
       {/* Set the title of the page */}
       <Head>
         <title>PokeDex</title>
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
           <p>© 2023 Pokedex</p>
         </footer>
       </div>
+    </div>
     </>
   )
 }
