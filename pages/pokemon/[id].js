@@ -5,7 +5,7 @@ const PokemonPage = ({ pokemon }) => { // declare a function component with `pok
   return (
     <Layout title={pokemon.name}>
       {/* render pokemon */}
-      <div className={styles.container}> /
+      <div className={styles.container}>
         <h1 className={styles.title}>{pokemon.name}</h1>
         <img className={styles.image} src={pokemon.imageUrl} alt={pokemon.name} />
         <p className={styles.detail}>Type: {pokemon.type}</p>

@@ -10,10 +10,10 @@
 
 .header {
   background-image: url('/pokedex.png');
-  background-size: 100%;
+  background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  height: 8rem;
+  height: 20vh;
 }
 
 .footer {
@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  height: 8rem;
+  height: 20vh;
 }
 
 .nav {
